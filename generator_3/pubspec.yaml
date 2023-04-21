@@ -1,0 +1,20 @@
+name: generator_3
+description:
+version: 0.0.1
+publish_to: none
+environment:
+  sdk: '>=3.0.0-218.1.beta <4.0.0'
+  flutter: ">=1.17.0"
+dependencies:
+  annotations_generator_3:
+    path: ../annotations_generator_3/
+  build:
+  source_gen:
+  analyzer:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+flutter:

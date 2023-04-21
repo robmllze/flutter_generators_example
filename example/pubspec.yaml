@@ -1,0 +1,29 @@
+name: example
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.0.0-218.1.beta <4.0.0'
+dependencies:
+  annotations_generator_1:
+    path: ../annotations_generator_1
+  annotations_generator_2:
+    path: ../annotations_generator_2
+  annotations_generator_3:
+    path: ../annotations_generator_3
+  generator_1:
+    path: ../generator_1
+  generator_2:
+    path: ../generator_2
+  generator_3:
+    path: ../generator_3
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  source_gen:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true

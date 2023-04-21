@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "annotations_generator_2"
+		},
+		{
+			"path": "annotations_generator_3"
+		},
+		{
+			"path": "example"
+		},
+		{
+			"path": "generator_1"
+		},
+		{
+			"path": "generator_2"
+		},
+		{
+			"path": "generator_3"
+		},
+		{
+			"path": "annotations_generator_1"
+		}
+	],
+	"settings": {
+		"hide-files.files": []
+	}
+}

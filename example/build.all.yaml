@@ -1,0 +1,29 @@
+# targets:
+#   $default:
+#     builders:
+#       builder1:
+#         enabled: true
+#       builder2:
+#         enabled: true
+#       builder3:
+#         enabled: true
+
+builders:
+    builder1:
+      import: "package:generator_1/generator_1.dart"
+      builder_factories: ["builder1"]
+      build_extensions: {".dart": [".g.dart"]}
+      auto_apply: dependents
+      build_to: cache
+    builder2:
+      import: "package:generator_2/generator_2.dart"
+      builder_factories: ["builder2"]
+      build_extensions: {".dart": [".g.dart"]}
+      auto_apply: dependents
+      build_to: cache
+    builder3:
+      import: "package:generator_3/generator_3.dart"
+      builder_factories: ["builder3"]
+      build_extensions: {".dart": [".g.dart"]}
+      auto_apply: dependents
+      build_to: cache

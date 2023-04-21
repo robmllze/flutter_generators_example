@@ -1,0 +1,8 @@
+builders:
+    builder3:
+      import: "package:generator_3/generator_3.dart"
+      builder_factories: ["builder3"]
+      build_extensions: {".dart": [".g.dart"]}
+      auto_apply: dependents
+      build_to: cache
+      applies_builders: ["source_gen|combining_builder"]
